@@ -1,0 +1,265 @@
+.output {
+  border-width: 1px;
+  border-style: dashed;
+  width: 588px;
+  height: 50px;
+  padding: 5px;
+}
+.chan .output {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mui-switch {
+  width: 52px;
+  height: 31px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  background-color: #fdfdfd;
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+}
+.mui-switch:before {
+  content: '';
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.mui-switch:checked {
+  border-color: #64bd63;
+  box-shadow: #64bd63 0 0 0 16px inset;
+  background-color: #64bd63;
+}
+.mui-switch:checked:before {
+  left: 21px;
+}
+.mui-switch.mui-switch-animbg {
+  transition: background-color ease 0.4s;
+}
+.mui-switch.mui-switch-animbg:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-animbg:checked {
+  box-shadow: #dfdfdf 0 0 0 0 inset;
+  background-color: #64bd63;
+  transition: border-color 0.4s, background-color ease 0.4s;
+}
+.mui-switch.mui-switch-animbg:checked:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-anim {
+  transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+}
+.mui-switch.mui-switch-anim:before {
+  transition: left 0.3s;
+}
+.mui-switch.mui-switch-anim:checked {
+  box-shadow: #64bd63 0 0 0 16px inset;
+  background-color: #64bd63;
+  transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+}
+.mui-switch.mui-switch-anim:checked:before {
+  transition: left 0.3s;
+}
+.frequency {
+  border-width: 1px;
+  border-style: dashed;
+  width: 48px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .frequency {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.amp {
+  border-width: 1px;
+  border-style: dashed;
+  width: 48px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .amp {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.offset {
+  border-width: 1px;
+  border-style: dashed;
+  width: 48px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .offset {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.phase {
+  border-width: 1px;
+  border-style: dashed;
+  width: 48px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .phase {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.sine {
+  border-width: 1px;
+  border-style: dashed;
+  width: 580px;
+  height: 220px;
+  margin: 2px;
+}
+.sine .harmonic {
+  float: left;
+}
+.harmonic {
+  border-width: 1px;
+  border-style: dashed;
+  width: 580px;
+  height: 170px;
+}
+.waveparam {
+  border-width: 1px;
+  border-style: dashed;
+  width: 578px;
+  height: 50px;
+  padding: 5px;
+}
+.sine .waveparam {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.ramp .waveparam {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.square .waveparam {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.duty {
+  border-width: 1px;
+  border-style: dashed;
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .duty {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.ramp {
+  border-width: 1px;
+  border-style: dashed;
+  width: 580px;
+  height: 220px;
+  margin: 2px;
+}
+.wavetypes .ramp {
+  position: relative;
+  top: 50;
+  left: 0;
+}
+.square {
+  border-width: 1px;
+  border-style: dashed;
+  width: 580px;
+  height: 220px;
+  margin: 2px;
+}
+.wavetypes .square {
+  position: relative;
+  top: 50;
+  left: 0;
+}
+.risingedge {
+  border-width: 1px;
+  border-style: dashed;
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .risingedge {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.fallingedge {
+  border-width: 1px;
+  border-style: dashed;
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+.sine .fallingedge {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.pulse {
+  border-width: 1px;
+  border-style: dashed;
+  width: 580px;
+  height: 220px;
+  margin: 2px;
+}
+.wavetypes .pulse {
+  position: relative;
+  top: 50;
+  left: 0;
+}
+.chan {
+  border-width: 1px;
+  border-style: dashed;
+  width: 588px;
+  height: 320px;
+}
+.chans .chan {
+  float: left;
+}
+.chans {
+  border-width: 1px;
+  border-style: dashed;
+  width: 590px;
+  height: 390px;
+}
+.signalGenerator .chans {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.signalGenerator {
+  background-color: lightgray;
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
